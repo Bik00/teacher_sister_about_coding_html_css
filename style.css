@@ -1,0 +1,193 @@
+input, button, a {
+  font-size: 14px;
+  font-family: Apple SD Gothic Neo,arial,sans-serif;
+  color: white;
+}
+
+body {
+  display: block;
+  background: #202124;
+  margin: 0 !important;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+.navbar:first-child {
+  margin-left: 15px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #bdc1c6;
+  margin-right: 15px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.nav-right-area {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.nav-image-area {
+    display:flex;
+}
+
+.nav-right-area a {
+  color: white;
+}
+
+.nav-image-area span {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-image-item a:hover {
+  display: inline-block;
+  width : 80%;
+  height: 80%;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, .12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  border-radius: 100%;
+}
+
+.main {
+  margin-top: 198px;
+  text-align: center;
+}
+
+.input-area {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-area i {
+  color: #9aa0a6;
+}
+
+.input-box {
+  width: 392px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #202124;
+  border: 1px solid #5f6368;
+  padding-left:60px;
+  padding-right:130px;
+}
+
+.input-box:hover {
+  background-color: #303134;
+  border: 0px solid #5f6368;
+  box-shadow: 0 0px 5px rgba(0,0,0,0.12);
+}
+
+.search-icon {
+  position: relative;
+  left: 40px;
+}
+  
+.google-search-icons {
+  position: relative;
+  right: 110px;
+  display: flex;
+  align-items: center;
+}
+
+.google-search-icons img {
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.button-area {
+  padding-top: 16px;
+}
+
+.button-area button {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: Apple SD Gothic Neo,arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button-area button:hover {
+  border: 1px solid #5f6368;
+}
+
+.button-area button:focus {
+  border: 1px solid #5f6368;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  background: #171717;
+  width: 100%;
+  color: #e8eaed;
+  font-size:14px;
+}
+
+.footer-first-line {
+  padding: 15px 30px;
+  border-bottom: 1px solid #5f6368;
+}
+
+.footer-second-line {
+  padding: 15px 30px;
+  border-bottom: 1px solid #5f6368;
+}
+
+.footer-item {
+  text-decoration: none;
+  margin-right: 15px;
+}
+  
+.footer-item:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  float: right;
+}
+
+.size-16 {
+  width: 16px;
+  height: 16px;
+}
+
+.size-24 {
+  width: 24px;
+}
+
+.size-30 {
+  width: 30px;
+  height: 30px;
+}

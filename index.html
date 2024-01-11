@@ -9,47 +9,55 @@
   </head>
   
   <body>
-    <!-- 상단 영역 -->
-    <div>
-      <a href="#">Gmail</a>
-      <a href="#">Images</a>
-      <a href="#"><img src="./dots-menu.png" style="width:40px; height:40px;"></a>
-    </div>
+    <div class="wrapper">
 
-    <!-- 중단 영역 -->
-    <div>
-      <img src="./googlelogo_color_272x92dp.png" width="272" height="92"/>
-      <div>
-        <i class="fas fa-search"></i>
-        <input type="text" />
-        <i class="fas fa-microphone"></i>
+      <!-- 상단 영역 -->
+      <div class="navbar">
+        <a class="nav-item" href="#">Google 정보</a>
+        <a class="nav-item" href="#">스토어</a>
+        <div class="nav-right-area">
+          <a class="nav-item" href="#">Gmail</a>
+          <a class="nav-item" href="#">Images</a>
+          <div class="nav-image-area">
+            <span class="nav-image-item"><a href="#"><img src="./dots-menu.png" class="size-16" /></a></span>
+            <span class="nav-image-item"><a href="#"><img src="./profile.jpg" class="profile size-30" /></a></span>
+          </div>
+        </div>
       </div>
-      <div>
-        <button>Google Search</button>
-        <button>I'm feeling lucky</button>
-      </div>
-      <div>
-        Google offered in:
-        <a href="#">한국어</a>
-        <a href="#">English</a>
-      </div>
-    </div>
 
-    <!-- 하단 영역 -->
-    <div>
-      <div>Korean</div>
-      <div>
-        <span>
-          <a href="#">About</a>
-          <a href="#">Advertising</a>
-          <a href="#">Business</a>
-          <a href="#">How search works</a>
-        </span>
-        <span>
-          <a href="#">Privacy</a>
-          <a href="#">Term</a>
-          <a href="#">Settings</a>
-        </span>
+      <!-- 중단 영역 -->
+      <div class="main">
+        <img src="./googlelogo_color_272x92dp.png" width="272" height="92"/>
+        <div class="input-area">
+          <i class="fas fa-search search-icon"></i>
+          <input class="input-box" type="text" />
+          <div class="google-search-icons">
+            <img src="./keyboard.png" class="size-24" />
+            <img src="./google_mic_icon.svg" class="size-30" />
+            <img src="./lens_google_icon.svg" class="size-30" />
+          </div>
+        </div>
+        <div class="button-area">
+          <button>Google 검색</button>
+          <button>I'm feeling lucky</button>
+        </div>
+      </div>
+
+      <!-- 하단 영역 -->
+      <div class="footer">
+        <div class="footer-first-line">대한민국</div>
+        <div class="footer-second-line">
+          <span>
+            <a href="#" class="footer-item">광고</a>
+            <a href="#" class="footer-item">비즈니스</a>
+            <a href="#" class="footer-item">검색의 원리</a>
+          </span>
+          <span class="footer-right">
+            <a href="#" class="footer-item">개인정보처리방침</a>
+            <a href="#" class="footer-item">약관</a>
+            <a href="#" class="footer-item">설정</a>
+          </span>
+        </div>
       </div>
     </div>
   </body>
