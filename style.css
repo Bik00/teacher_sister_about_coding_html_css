@@ -1,0 +1,40 @@
+body {
+    background-color:white;
+    background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
+    linear-gradient(rgba(200,0,0,.5) 50%, transparent 50%);
+    background-size:50px 50px;
+}
+
+.title {
+    display:flex;
+    justify-content: center;
+}
+
+.title span {
+    background-color: white;
+    border: 20px solid #1abc9c;
+}
+
+.content {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+    height:35vh;
+    margin-top: 50px;
+}
+
+.content-items button {
+    background-color : white;
+    border: 0px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #34495e;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .12);
+}
+
+.content-items button h3 {
+    margin: 0;
+}

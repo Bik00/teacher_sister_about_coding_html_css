@@ -1,0 +1,22 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-sub {
+    width: 100%;
+    display: flex;
+}
+
+.content-sub:nth-child(1) {
+    justify-content: flex-start;
+}
+
+.content-sub:nth-child(2) {
+    justify-content: center;
+}
+
+.content-sub:nth-child(3) {
+    justify-content: flex-end;
+}

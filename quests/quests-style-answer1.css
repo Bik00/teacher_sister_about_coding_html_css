@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-items {
+    margin-left: 5px;
+}
+
+.content-items:nth-child(1) {
+    position: absolute;
+    left: 79px;
+}
