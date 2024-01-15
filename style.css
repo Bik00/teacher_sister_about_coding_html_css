@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.btn-outline-success {
+  color: chocolate;
+  border-color: chocolate;
+}
+
+.btn-outline-success:hover {
+  background-color: chocolate;
+  border-color: chocolate;
+  color: white;
+}
